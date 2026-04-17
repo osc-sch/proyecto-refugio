@@ -1,0 +1,71 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.adoptar{
+    padding: 10px;
+}
+.adoptar-head{
+    background-image:linear-gradient(#0077B6,#ffffff46), url("https://estaticos-cdn.prensaiberica.es/clip/66e86d63-f5d3-4752-b019-29e28f5079a5_16-9-discover-aspect-ratio_default_0.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px;
+    box-shadow: 0px 1px 3px;
+    color:#292929;
+}
+
+.cont-parrafos{
+    padding: 10px;
+    background-color: #ffffff67;
+}
+
+.cont-cartas-adopcion{
+    display: grid;
+    grid-template-columns: repeat(5,minmax(120px,1fr));
+}
+
+.carta-adopcion{
+    padding: 10px;
+    margin: 5px;
+    background-color: #e0e0e0;
+    border-radius: 3px;
+    border: 1px solid #adadad;
+    
+}
+.carta-adopcion a{
+    color: rgb(255, 255, 255);
+    background-color: #0077B6;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 4px #03045E;
+    text-decoration: none;
+    font-weight: bold;
+    border: solid 1px #03045E;
+}
+.carta-adopcion a:hover{
+    color: rgb(240, 240, 240);
+    background-color: #008fdb;
+}
+.imagen-carta-adopcion{
+    padding-top: 8px;
+    padding-bottom: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(255, 255, 255);
+
+}
+.imagen-carta-adopcion p{
+    text-align: center;
+}
+.imagen-carta-adopcion img{
+    width: 100%;
+    
+}
