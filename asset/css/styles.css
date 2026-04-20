@@ -1,0 +1,118 @@
+/* body{
+    background-color:  #00B4D8;
+} */
+
+.cuerpo{
+    display: grid;
+    padding: 80px;
+    
+}
+
+#section1{
+    display: flex;
+    grid-template-columns: repeat(2, minmax(120px , 1fr));
+    background-color: #90E0EF;
+    text-align: center;
+    border-radius: 40px;
+    margin: 20px;
+    
+}
+
+#section2{
+    display: flex;
+    grid-template-columns: repeat(2, minmax(120px , 1fr));
+    background-color:  #90E0EF;
+    text-align: center;
+    border-radius: 40px;
+    margin: 20px;
+    
+}
+
+#section3{
+    display: flex;
+    grid-template-columns: repeat(2, minmax(120px , 1fr));
+    background-color:  #90E0EF;
+    text-align: center;
+    border-radius: 40px;
+    margin: 20px;
+    
+}
+
+#img1 img{
+    border-radius: 100%;
+}
+#img2 img{
+    border-radius: 100%;
+}
+
+.calendario-contenedor {
+    background-color:  #90E0EF;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(120px , 1fr));
+    background-color:  #90E0EF;
+    padding: 20px;
+    text-align: center;
+    border-radius: 40px;
+     margin: 20px;
+}
+
+.calendario img {
+    border: 10px;
+    border-radius: 100%;
+}
+
+.info{
+    background-color:  #90E0EF;
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(120px , 1fr));
+    background-color:  #90E0EF;
+    text-align: center;
+    border-radius: 40px;
+    margin: 20px;
+    
+}
+
+.bloque {
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    grid-template-columns: repeat(2, minmax(120px , 1fr));
+} 
+
+.bloque img {
+    border-radius: 100%;
+    border: 10px;
+}
+
+.info-2{
+    background-color: #0077B6;
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(120px , 1fr));
+    background-color:  #90E0EF;
+    text-align: center;
+    border-radius: 40px;
+    margin: 20px;
+}
+
+
+.reverse {
+    flex-direction: row-reverse;
+    border-radius: 40px;
+}
+
+.texto {
+    grid-template-columns: repeat(2, minmax(120px , 1fr));
+}
+
+
+
+/*
