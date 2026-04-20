@@ -115,4 +115,146 @@
 
 
 
-/*
+
+*{
+    margin: 0;
+}
+/* Paleta de colores Ocean Breeze
+    #03045E
+    #0077B6
+    #00B4D8
+    #90E0EF
+    #CAF0F8
+*/
+/* Estilos para la navegacion
+Se utilizo la propiedad grid para ajustar el posicionamiento*/
+
+.navegacion ul{
+    padding: 0;
+     height: auto;
+     background-color: #0077B6;
+     display: grid;
+     grid-template-columns: repeat(6, maxmin(120px, 1fr));
+     justify-items: center;
+     grid-auto-flow: column;
+     align-items: center;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+     .navegacion ul li{
+        list-style-type: none;
+    }
+
+    .navegacion ul li a{
+        margin-top: 20px;
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+        transition: all 0.5s;
+    }
+   
+    .navegacion ul li a:hover{
+        color: #90E0EF;
+        font-size: 23px;
+    }
+
+    .navegacion ul li img{
+        width: 100px;
+}
+
+.bienvenida{
+    position: relative;
+    width: 100%;
+    display: flex;
+    }
+
+    .bienvenida-img{
+        position: absolute;
+        width: 100%;
+        background-image: url("../img/header.png");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .bienvenida-titulo{
+        position: relative;
+        z-index: 3;
+        font-size: 36px;
+        color: #03045E;
+        padding: 60px;
+}
+
+.nosotros{
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+.div-nosotros{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(120px, 1fr));
+    padding: 60px;
+    font-size: 16px;
+    gap: 20px;
+    }
+
+    #img1{
+        width: 600px;
+    }
+
+    .nosotros p{
+        margin-top: 0.2cm;
+}
+
+.div-actividades{
+        padding: 20px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .div-actividades h1{
+        padding: 20px;
+    }
+
+    .actividades{
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(120px, 1fr));
+        background-color: #90E0EF;
+        border-radius: 30px;
+    }
+
+    .actividades img{
+        height: 100px;
+        border-radius: 30px;
+    }
+
+.buscar{
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.busqueda{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(120px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+
+    }
+    .busqueda div{
+        padding: 20px;
+    }
+
+    .busqueda div{
+        background-color: #90E0EF;
+        display: flex;
+        flex-direction: column;
+        border-radius: 30px;
+    }
+    .busqueda h2{
+        background-color: #0077B6;
+        border-radius: 30px 30px 0 0;
+    }
+    .busqueda img{
+        height: 250px;
+        border-radius: 0 0 30px 30px;
+}
